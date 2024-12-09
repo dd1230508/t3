@@ -4,6 +4,8 @@
 
 using namespace std;
 
+File::File() : name(""), content(""), date(){}
+
 File::File(const std::string& name, const std::string& content, const Date& date)
     : name(name), content(content), date(date){}
 

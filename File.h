@@ -5,11 +5,13 @@
 #include <string>
 #include <iomanip>
 #include "Date.h"
+#include "defs.h"
 
 using namespace std;
 
 class File{
     public:
+        File();
         File(const std::string& name, const std::string& content, const Date& date);
 
         bool lessThan(const Date& d) const;

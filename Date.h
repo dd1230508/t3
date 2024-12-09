@@ -23,9 +23,9 @@ class Date {
 		void setDate(const Date&);
 		
 		//getters
-		int getDay() const;
-		int getMonth() const;
-		int getYear() const;
+		int getDay() ;
+		int getMonth() ;
+		int getYear() ;
 		string getMonthName()const ;
 		
 		//other
@@ -37,7 +37,7 @@ class Date {
 	
 	private:
 		//functions
-		int getMaxDay() const;	
+		int getMaxDay() ;	
 	
 		//variables
 		int day;

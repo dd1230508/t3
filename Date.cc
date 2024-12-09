@@ -46,9 +46,9 @@ void Date::setDate(const Date& d){
 
 
 //getters
-int Date::getDay() const{ return day; }
-int Date::getMonth() const{ return month; }
-int Date::getYear() const{ return year; }
+int Date::getDay() { return day; }
+int Date::getMonth() { return month; }
+int Date::getYear() { return year; }
 string Date::getMonthName() const{
 	string months[12] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
 	return months[month-1];
@@ -96,7 +96,7 @@ void Date::print() const{
 }
 
 
-int Date::getMaxDay() const{
+int Date::getMaxDay() {
 	switch(getMonth()){
 		case 4:
 		case 6:
